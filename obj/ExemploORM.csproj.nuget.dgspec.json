@@ -1,36 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\autologon\\Documents\\vitor\\ExemploORM\\ExemploORM.csproj": {}
+    "C:\\Users\\euyoh\\Desktop\\escobar\\usado\\c-\\ExemploORM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\autologon\\Documents\\vitor\\ExemploORM\\ExemploORM.csproj": {
+    "C:\\Users\\euyoh\\Desktop\\escobar\\usado\\c-\\ExemploORM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\autologon\\Documents\\vitor\\ExemploORM\\ExemploORM.csproj",
+        "projectUniqueName": "C:\\Users\\euyoh\\Desktop\\escobar\\usado\\c-\\ExemploORM.csproj",
         "projectName": "ExemploORM",
-        "projectPath": "C:\\Users\\autologon\\Documents\\vitor\\ExemploORM\\ExemploORM.csproj",
-        "packagesPath": "C:\\Users\\autologon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\autologon\\Documents\\vitor\\ExemploORM\\obj\\",
+        "projectPath": "C:\\Users\\euyoh\\Desktop\\escobar\\usado\\c-\\ExemploORM.csproj",
+        "packagesPath": "C:\\Users\\euyoh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\euyoh\\Desktop\\escobar\\usado\\c-\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\autologon\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\euyoh\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -38,25 +32,32 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.EntityframeworkCore": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[7.0.2, )"
             },
-            "Microsoft.EntityframeworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[7.0.0, )"
             },
-            "Pomelo.EntityframeworkCore.MySql": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[7.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -70,6 +71,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.18, 7.0.18]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -78,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

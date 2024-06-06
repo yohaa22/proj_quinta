@@ -1,0 +1,7 @@
+C:\Users\euyoh\Desktop\escobar\usado\c-\obj\Debug\net5.0\ExemploORM.csproj.AssemblyReference.cache
+C:\Users\euyoh\Desktop\escobar\usado\c-\obj\Debug\net5.0\ExemploORM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\euyoh\Desktop\escobar\usado\c-\obj\Debug\net5.0\ExemploORM.AssemblyInfoInputs.cache
+C:\Users\euyoh\Desktop\escobar\usado\c-\obj\Debug\net5.0\ExemploORM.AssemblyInfo.cs
+C:\Users\euyoh\Desktop\escobar\usado\c-\obj\Debug\net5.0\ExemploORM.csproj.CoreCompileInputs.cache
+C:\Users\euyoh\Desktop\escobar\usado\c-\obj\Debug\net5.0\ExemploORM.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\euyoh\Desktop\escobar\usado\c-\obj\Debug\net5.0\ExemploORM.sourcelink.json
